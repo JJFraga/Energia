@@ -6,6 +6,11 @@ public class Instructor
     private int jsj = 0;
     private int aa = 0;
 
+    public Instructor()
+    {
+
+    }
+
     public Instructor(int jj, int jsj, int aa)
     {
         this.jj = jj;
