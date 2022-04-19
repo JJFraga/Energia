@@ -11,6 +11,17 @@ public class Instructor
 
     }
 
+    public Instructor(int aa)
+    {
+        this.aa = aa;
+    }
+
+    public Instructor(int jj, int aa)
+    {
+        this.jj = jj;
+        this.aa = aa;
+    }
+
     public Instructor(int jj, int jsj, int aa)
     {
         this.jj = jj;
