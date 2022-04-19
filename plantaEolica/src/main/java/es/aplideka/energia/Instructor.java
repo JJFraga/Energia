@@ -43,8 +43,8 @@ public class Instructor
         this.aa = aa;
     }
 
-    public Boolean EvaluarMetodo()
+    public Boolean EvaluarMetodo(Boolean revisar, int intentos)
     {
-        return true;
+        return revisar | intentos > 0;
     }
 }
