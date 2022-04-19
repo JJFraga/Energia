@@ -9,6 +9,7 @@ public class Instructor
     public Instructor(int jj, int jsj, int aa)
     {
         this.jj = jj;
+
         this.jsj = jsj;
         this.aa = aa;
     }
