@@ -9,7 +9,6 @@ public class Instructor
     public Instructor(int jj, int jsj, int aa)
     {
         this.jj = jj;
-
         this.jsj = jsj;
         this.aa = aa;
     }
@@ -42,5 +41,10 @@ public class Instructor
     public void setAa(int aa)
     {
         this.aa = aa;
+    }
+
+    public Boolean EvaluarMetodo()
+    {
+        return true;
     }
 }
